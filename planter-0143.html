@@ -498,6 +498,29 @@
   }
   footer .credit { margin-top: 14px; line-height: 1.5; }
 
+  /* Switch to the other example passport (handy when demoing the framework) */
+  .passport-switch {
+    display: flex; align-items: center; justify-content: space-between; gap: 12px;
+    text-decoration: none;
+    border: 1px solid var(--line);
+    background: var(--tile-bg);
+    color: var(--muted);
+    border-radius: 10px;
+    padding: 12px 14px;
+    margin-bottom: 18px;
+    transition: border-color 0.15s ease;
+  }
+  .passport-switch .sw-k {
+    display: block;
+    font-family: var(--font-label);
+    text-transform: uppercase; letter-spacing: 0.06em;
+    font-size: 0.66rem; color: var(--faint);
+    margin-bottom: 3px;
+  }
+  .passport-switch .sw-t { color: var(--ink); font-weight: 600; font-size: 0.9rem; }
+  .passport-switch .sw-arrow { color: var(--accent); flex: none; display: flex; }
+  .passport-switch:hover { border-color: var(--accent-border); }
+
   /* ---- Accessibility: focus + reduced motion ---- */
   :focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 6px; }
   @media (prefers-reduced-motion: reduce) {
@@ -786,6 +809,17 @@
 
   <!-- ============ FOOTER ============ -->
   <footer>
+    <!-- Jump to the other example passport (see index.html) -->
+    <a class="passport-switch" href="index.html">
+      <span>
+        <span class="sw-k">Another example passport</span>
+        <span class="sw-t">Planter wall &middot; 1st life</span>
+      </span>
+      <span class="sw-arrow" aria-hidden="true">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </span>
+    </a>
+
     <div class="row">
       <span>An open-source <a id="fork-link" class="fork-link" href="#" target="_blank" rel="noopener">Community Material Passport</a></span>
       <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch light or dark theme">
