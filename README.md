@@ -109,7 +109,7 @@ your links, the buttons show a friendly "not wired up yet" message instead of br
        return:   "https://tally.so/r/ZZZZZZ"
      },
      passportId: "B-0142-A",
-     repoUrl: "https://github.com/your-org/community-material-passport"
+     repoUrl: "https://github.com/OliveOil-Design/DSfEC-Sprint-DPP"
    };
    ```
 
@@ -131,7 +131,7 @@ You have two ways to get these files onto GitHub — pick whichever you're comfo
 **Option B — push with Git**
 This folder is already a Git repository with an initial commit, so you only need to connect it:
 ```bash
-git remote add origin https://github.com/<your-username>/<repo-name>.git
+git remote add origin https://github.com/OliveOil-Design/DSfEC-Sprint-DPP.git
 git branch -M main
 git push -u origin main
 ```
@@ -141,8 +141,8 @@ git push -u origin main
 2. Under **Source** choose **Deploy from a branch**, select your branch (`main`) and the root
    folder (`/`), and **Save**.
 3. Wait ~1 minute. Your passports are now live at:
-   - `https://<your-username>.github.io/<repo-name>/` → the planter wall (`index.html`)
-   - `https://<your-username>.github.io/<repo-name>/planter-0143.html` → the hex planter
+   - `https://OliveOil-Design.github.io/DSfEC-Sprint-DPP/` → the planter wall (`index.html`)
+   - `https://OliveOil-Design.github.io/DSfEC-Sprint-DPP/planter-0143.html` → the hex planter
 
 > The included `.nojekyll` file makes sure GitHub Pages publishes the files exactly as they are.
 
