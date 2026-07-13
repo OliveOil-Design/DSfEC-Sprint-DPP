@@ -1,8 +1,8 @@
 # Community Material Passport
 
-A **Digital Product Passport (DPP)** for community-made, locally-recycled plastic objects — an
-open-source template built for the **Design Skills for Embedding Circularity (DSfEC)** design
-sprint.
+Passport live at: https://oliveoil-design.github.io/DSfEC-Sprint-DPP/
+
+A **Digital Product Passport (DPP)** for community-made, locally-recycled plastic objects — an open-source template built for the **Design Skills for Embedding Circularity (DSfEC)** design sprint.
 
 Scan a QR code on a physical object → open this page → scroll its whole material and product
 story, understand its impact, and act on it (report wildlife, request a repair, return it to be
@@ -13,7 +13,7 @@ The demo content describes a concept artifact — the *Sharrow Vale community pl
 of modular tile planters moulded from neighbourhood HDPE — but everything is placeholder text you
 can rewrite for your own scheme.
 
-![Passport shown in light and dark themes](assets/images/planter-wall.jpg)
+![Passport shown in light and dark themes](assets/images/DPP Light.jpg)
 <!-- ^ this image is a placeholder; drop assets/images/planter-wall.jpg in to see it -->
 
 ---
