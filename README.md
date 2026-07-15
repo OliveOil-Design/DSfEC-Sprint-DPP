@@ -13,7 +13,8 @@ The demo content describes a concept artifact — the *Sharrow Vale community pl
 of modular tile planters moulded from neighbourhood HDPE — but everything is placeholder text you
 can rewrite for your own scheme.
 
-![Passport in light theme](assets/images/DPP%20Light.png) ![Passport in dark theme](assets/images/DPP%20Dark.png)
+![Passport shown in light and dark themes](assets/images/DPP Light.jpg)
+<!-- ^ this image is a placeholder; drop assets/images/planter-wall.jpg in to see it -->
 
 ---
 
@@ -87,8 +88,7 @@ Near the top of `index.html`, the `:root` (light) and `:root[data-theme="dark"]`
 
 ## Wire up the Tally forms
 
-The three action buttons open [Tally](https://tally.so) forms (free to create). Until you add
-your links, the buttons show a friendly "not wired up yet" message instead of breaking.
+The three action buttons open [Tally](https://tally.so) forms (free to create). Until you add your links, the buttons show a friendly "not wired up yet" message instead of breaking.
 
 1. Create three forms on Tally:
    - **Wildlife sighting** (what was seen, photo upload, when)
