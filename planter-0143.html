@@ -298,6 +298,17 @@
   .img-slot .ph-ico { opacity: 0.5; }
   header .img-slot { margin-top: 22px; }
 
+  /* Real hero photo, once you've swapped the placeholder for an <img>.
+     No fixed aspect-ratio, so portrait or landscape photos both work. */
+  .hero-photo {
+    display: block;
+    width: 100%;
+    max-height: 70vh;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-top: 22px;
+  }
+
   /* ==========================================================================
      5. COMMUNITY / AVATARS
      ========================================================================== */
@@ -577,14 +588,9 @@
     </div>
     <p class="footnote">* placeholder figures, pending verified methodology</p>
 
-    <!-- IMAGE PLACEHOLDER: hero product photo -->
-    <div class="img-slot wide" role="img" aria-label="Photo of the hex planter (to be added)">
-      <svg class="ph-ico" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-        <rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="8.5" cy="9.5" r="1.8"/><path d="M4 18l5-5 4 4 3-3 4 4"/>
-      </svg>
-      <span>Drop your product photo here</span>
-      <span class="path">assets/images/hex-planter.jpg</span>
-    </div>
+    <img src="assets/images/hex-planter.jpg"
+         alt="The Sharrow Vale community hex planter"
+         class="hero-photo" />
   </header>
 
   <!-- ============ MEET THE COMMUNITY ============ -->
@@ -709,13 +715,13 @@
     </div>
 
     <!-- IMAGE PLACEHOLDER: planting / pollinator photo (optional) -->
-    <div class="img-slot" style="margin-top:16px" role="img" aria-label="Planting or pollinator photo (to be added)">
+    <!-- <div class="img-slot" style="margin-top:16px" role="img" aria-label="Planting or pollinator photo (to be added)">
       <svg class="ph-ico" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
         <rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="8.5" cy="9.5" r="1.8"/><path d="M4 18l5-5 4 4 3-3 4 4"/>
       </svg>
       <span>Optional: planting / pollinator photo</span>
       <span class="path">assets/images/pollinators.jpg</span>
-    </div>
+    </div> -->
   </section>
 
   <!-- ============ REPORT WILDLIFE ACTIVITY ============ -->
@@ -843,9 +849,9 @@
      ------------------------------------------------------------------------ */
   var CONFIG = {
     tally: {
-      sighting: "",   // e.g. "https://tally.so/r/abc123"  — wildlife sighting form
-      repair:   "",   // e.g. "https://tally.so/r/def456"  — repair / report-broken form
-      return:   ""    // e.g. "https://tally.so/r/ghi789"  — return / remake form
+      sighting: "https://tally.so/r/WOBQde",   // e.g. "https://tally.so/r/WOBQde"  — wildlife sighting form
+      repair:   "https://tally.so/r/RGa26K",   // e.g. "https://tally.so/r/RGa26K"  — repair / report-broken form
+      return:   "https://tally.so/r/5BDroZ"    // e.g. "https://tally.so/r/5BDroZ"  — return / remake form
     },
     // Pass the artifact's batch ID into every form so submissions are traceable.
     // (Add a "Hidden field" named "passport" in each Tally form to capture it.)

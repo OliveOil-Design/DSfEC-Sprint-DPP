@@ -13,8 +13,7 @@ The demo content describes a concept artifact — the *Sharrow Vale community pl
 of modular tile planters moulded from neighbourhood HDPE — but everything is placeholder text you
 can rewrite for your own scheme.
 
-![Passport shown in light and dark themes](assets/images/DPP Light.jpg)
-<!-- ^ this image is a placeholder; drop assets/images/planter-wall.jpg in to see it -->
+![Passport in light theme](assets/images/DPP%20Light.png) ![Passport in dark theme](assets/images/DPP%20Dark.png)
 
 ---
 
